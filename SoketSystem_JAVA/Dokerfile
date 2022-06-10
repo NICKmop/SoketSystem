@@ -1,0 +1,4 @@
+FROM openjdk:8-jdk-alpine
+ARG JAR_FILE=SoketSystem_JAVA.jar
+COPY ${JAR_FILE} SocketServer.jar
+ENTRYPOINT ["java","-jar","/SocketServer.jar"]

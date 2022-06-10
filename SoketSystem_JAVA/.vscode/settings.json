@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Program Files\\Java\\jdk1.8.0_321\\bin\\jsch-0.1.55.jar"
+        ],
+        "exclude": [
+            "lib/jsch-0.1.55.jar"
+        ]
+    },
+    "svn.ignoreMissingSvnWarning": true
+}
