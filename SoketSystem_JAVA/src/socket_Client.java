@@ -1,16 +1,21 @@
 import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class socket_Client {
+import javax.swing.JFrame;
 
+
+public class socket_Client extends JFrame{
+ 
     public static void main(String[] args) {
         try {
-            // Socket soc = new Socket("localhost", 5056);
-            Socket soc = new Socket("10.10.200.130", 9888);
+            Socket soc = new Socket("localhost", 5056);
+            // Socket soc = new Socket("10.10.200.130", 9888);
             //writer
             PrintWriter pw = new PrintWriter(soc.getOutputStream(), true);
             //read

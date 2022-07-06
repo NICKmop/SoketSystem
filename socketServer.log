@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="x-windows-949" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-06-10T15:06:12</date>
+  <millis>1654841172176</millis>
+  <sequence>1</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>input
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:12</date>
+  <millis>1654841172986</millis>
+  <sequence>2</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>test
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:12</date>
+  <millis>1654841172986</millis>
+  <sequence>2</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>test
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:19</date>
+  <millis>1654841179638</millis>
+  <sequence>3</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>this is server chatting data adddd
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:19</date>
+  <millis>1654841179638</millis>
+  <sequence>3</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>this is server chatting data adddd
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:19</date>
+  <millis>1654841179638</millis>
+  <sequence>3</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>this is server chatting data adddd
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:22</date>
+  <millis>1654841182540</millis>
+  <sequence>4</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>dddddddddddddddddddddinput addd
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:22</date>
+  <millis>1654841182540</millis>
+  <sequence>4</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>dddddddddddddddddddddinput addd
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:22</date>
+  <millis>1654841182540</millis>
+  <sequence>4</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>dddddddddddddddddddddinput addd
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:22</date>
+  <millis>1654841182540</millis>
+  <sequence>4</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>dddddddddddddddddddddinput addd
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:24</date>
+  <millis>1654841184429</millis>
+  <sequence>5</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>exit
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:24</date>
+  <millis>1654841184429</millis>
+  <sequence>5</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>exit
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:24</date>
+  <millis>1654841184429</millis>
+  <sequence>5</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>exit
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:24</date>
+  <millis>1654841184429</millis>
+  <sequence>5</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>exit
+</message>
+</record>
+<record>
+  <date>2022-06-10T15:06:24</date>
+  <millis>1654841184429</millis>
+  <sequence>5</sequence>
+  <logger>socket_Client</logger>
+  <level>INFO</level>
+  <class>socket_Server$ClientHandler</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>exit
+</message>
+</record>
+</log>

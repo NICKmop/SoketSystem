@@ -1,19 +1,21 @@
 import java.io.*;
 import java.net.*;
+import java.util.logging.*;
 
 /**
  * socket_Server
  */
 public class socket_Server {
+    private final static Logger logger = Logger.getLogger(socket_Client.class.getName());
+    private static FileHandler filehandler;
+
     public static void main(String[] args) throws IOException {
         ServerSocket serversocket = null;
+        filehandler = new FileHandler("./socketServer.log", true);
         try {
             
             serversocket = new ServerSocket(5056);
             serversocket.setReuseAddress(true);
-
-            System.out.println("server open : "+ serversocket.getInetAddress());
-            System.out.println("server socket " + serversocket);
 
             while (true) {
                 Socket client = serversocket.accept();
@@ -42,7 +44,7 @@ public class socket_Server {
 
     private static class ClientHandler implements Runnable {
         private final Socket clientSocket;
-
+        
         //constructor
         public ClientHandler(Socket soc){
             this.clientSocket = soc;
@@ -58,8 +60,12 @@ public class socket_Server {
 
                 String line;
                 while ((line = in.readLine()) != null) {
+                    
                     System.out.printf("client : %s\n", line);
                     out.println(line);
+                    
+                    logger.info(line+"\n");
+                    logger.addHandler(filehandler);
                 }
             } catch (Exception e) {
                 e.printStackTrace();
